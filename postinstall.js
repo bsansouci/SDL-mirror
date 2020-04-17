@@ -143,7 +143,7 @@ var bsconfigjson = `{
   "name": "sdl2",
   "sources": "fake_src",
   "c-linker-flags": [${platformspecificargs}],
-  "static-libraries": ["libSDL2.a"],
+  "static-libraries": ["../../libSDL2.a"],
   "allowed-build-kinds": ["bytecode", "native"],
   "refmt": 3,
 }`;
